@@ -45,9 +45,9 @@
 
     }
     .main-img {
-      max-width: 100%;
+      max-width: auto;
       height: auto;
-      object-fit: cover;
+      
     }
 
     #footer
@@ -116,10 +116,28 @@
             height: 120px;
             width: 120px;
         }
+        .main-img {
+      height: auto;
+      max-width: 100%;
+                  
+        }
     }
 
 		@media (max-width: 860px)
 		{
+
+      .main-img  {
+        margin: 0 auto;
+            height: auto;
+            max-width: 100%;
+            border: none;
+            display: block;
+            padding: 5px 0;
+
+      } 
+      
+    }
+
 			#footer
 			{
 				padding-bottom: 1rem;
@@ -193,7 +211,7 @@
         </nav>
     </div>
     <div class="row" id="rw">
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6" col-md-3>
            <img src="sowore1.png"  alt="image" class="main-img">
            <h2>Omoyele Sowore</h2>
         </div>
@@ -308,10 +326,6 @@
                         </p>   
                     </div>
                 </div>
-
-
-
-
     <footer id="footer">
             <hr id="hr">
             <nav id="nav-flex">
