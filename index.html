@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,9 +46,9 @@
 
     }
     .main-img {
-      max-width: auto;
+      max-width: 100%;
       height: auto;
-      
+      object-fit: cover;
     }
 
     #footer
@@ -116,28 +117,10 @@
             height: 120px;
             width: 120px;
         }
-        .main-img {
-      height: auto;
-      max-width: 100%;
-                  
-        }
     }
 
 		@media (max-width: 860px)
 		{
-
-      .main-img  {
-        margin: 0 auto;
-            height: auto;
-            max-width: 100%;
-            border: none;
-            display: block;
-            padding: 5px 0;
-
-      } 
-      
-    }
-
 			#footer
 			{
 				padding-bottom: 1rem;
@@ -211,7 +194,7 @@
         </nav>
     </div>
     <div class="row" id="rw">
-        <div class="col-12 col-md-6" col-md-3>
+        <div class="col-12 col-md-6">
            <img src="sowore1.png"  alt="image" class="main-img">
            <h2>Omoyele Sowore</h2>
         </div>
@@ -326,6 +309,10 @@
                         </p>   
                     </div>
                 </div>
+
+
+
+
     <footer id="footer">
             <hr id="hr">
             <nav id="nav-flex">
@@ -360,10 +347,7 @@
       
     
     
-    
-    
-    
-    
+  
           <script
           src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
           integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
